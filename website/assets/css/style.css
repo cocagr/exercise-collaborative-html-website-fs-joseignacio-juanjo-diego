@@ -1,3 +1,6 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.first-heading{
+    font-family: 'Courier New', Courier, monospace;
 }
