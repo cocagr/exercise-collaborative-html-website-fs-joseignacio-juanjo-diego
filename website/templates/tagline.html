@@ -1,13 +1,9 @@
 <div class="carousel-container position-relative">
 
-  <div class="fixed-text">
-    <div class="box title-box">
-      <h2>One Page Wonder</h2>
-    </div>
-    <div class="box subtitle-box pb-3 pt-3">
-      <p>Will Knock Your Socks Off</p>
-    </div>
-  </div>
+  <div class="position-absolute top-50 start-50 translate-middle text-center z-3 w-100 mw-75  mx-auto ps-5 pe-5">
+  <h1 class="mb-2 display-3 fw-bold text-dark bg-white rounded bg-opacity-50 w-100 " ><b>One Page Wonder</b></h1>
+  <p class="mb-0 display-6 fw-bold text-dark bg-white rounded bg-opacity-50 w-100"><b>Will Knock Your Socks Off</b></p>
+</div>
 
   <!-- Carousel -->
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -33,52 +29,3 @@
   </div>
 </div>
 
-<style>
-  .carousel-container {
-    position: relative;
-  }
-
-.fixed-text {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 10;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.box {
-    background: rgba(255, 255, 255, 0.7);
-    padding: 40px 50px;
-    border-radius: 12px;
-    max-width: 800px; 
-    margin: 0 auto;
-    box-sizing: border-box;
-
-    
-    font-size: clamp(3rem, 12vw, 6rem); 
-    font-weight: 900; 
-    line-height: 1.1;
-    text-transform: uppercase; 
-    width: 100%;
-}
-
-
-  .title-box h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0;
-    color: #000;
-  }
-
-  .subtitle-box p {
-    font-size: 1.2rem;
-    font-weight: normal;
-    margin: 0;
-    color: #333; 
-  }
-</style>
