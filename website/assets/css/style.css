@@ -2,3 +2,9 @@ body{
     background: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.first-heading,
+.second-heading {
+    text-align: center;
+    margin: 0 auto;
+}
